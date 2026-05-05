@@ -1,0 +1,6 @@
+crsf_joy_node:
+  ros__parameters:
+    port: "/dev/xr4_crsf"
+    switch_threshold: 0.5
+    # CH 0-7 → axes[], CH 8-15 → buttons[]
+    button_channels: [8, 9, 10, 11, 12, 13, 14, 15]
